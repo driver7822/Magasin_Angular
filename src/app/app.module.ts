@@ -12,6 +12,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { NewclientComponent } from './components/newclient/newclient.component';
 import { EditclientComponent } from './components/editclient/editclient.component';
 import { NewcomfactComponent } from './components/newcomfact/newcomfact.component';
+import { EditcommandeComponent } from './components/editcommande/editcommande.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NewcomfactComponent } from './components/newcomfact/newcomfact.componen
     CommandesComponent,
     NewclientComponent,
     EditclientComponent,
-    NewcomfactComponent
+    NewcomfactComponent,
+    EditcommandeComponent
   ],
   imports: [
     BrowserModule,
